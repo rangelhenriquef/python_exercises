@@ -1,7 +1,7 @@
 from validate_docbr import CPF, CNPJ
 
 
-class OldValidaCPFouCNPJ:
+class ValidaCPFouCNPJ:
     def __init__(self, cpf_cnpj):
         self.documento = str(cpf_cnpj)
         if self.valida_doc(self.documento):
